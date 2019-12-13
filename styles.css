@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+list-style: none;
+text-decoration: none;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: black;
+overflow-x: hidden;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.body-main_menu{
+  width:200px;
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+  padding:30px 30px 5px;
+}
+
+.body-main_menu_cheap{
+  margin: auto;
+  font-size: 30px;
+}
+
+.body-main_menu_fast{
+  margin: auto;
+  font-size: 30px;
+}
+
+.body-main_menu_good{
+  margin: auto;
+  font-size: 30px;
+}
+
+.body-main_menu_cheap_script{
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.body-main_menu_fast_script{
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.body-main_menu_good_script{
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+
